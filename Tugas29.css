@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    background: #3333;
+}
+img {
+    position: relative;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 40px;
+    width: 370px;
+    background: whitesmoke;
+    box-sizing: border-box;
+}
+
+
+.container h1 {
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid blue;
+}
+
+.container input {
+    width: 250px;
+}
+
+.container form button {
+    width: 95%;
+}
+
+
